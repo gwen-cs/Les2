@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Groet</title>
+    </head>
+    <body>
+        <h1>Hallo wold</h1>
+        <p>Welkom {{ firstname }}</p>
+        <!-- Lange notatie -->
+        <main>
+            {% if is_success %}
+                You have successfully solved the puzzle!
+            {% else %}
+                Try again another time!
+            {% endif %}
+        </main>
+        <!-- Korte notatie -->
+        <p>{{"Congratulations" if is_success else "Try again!" }}</p>
+        <!-- invoer van een foto -->
+        {{ url_for ("static",fileneme=) }}
+
+
+
+    </body>
+</html>
