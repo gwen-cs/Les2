@@ -18,7 +18,13 @@
         <!-- Korte notatie -->
         <p>{{"Congratulations" if is_success else "Try again!" }}</p>
         <!-- invoer van een foto -->
-        {{ url_for ("static",fileneme=) }}
+
+        <img src="{{ url_for('static', filename='pictures/spongebob.png' ) }}"
+        alt="{{ spongebob }}"
+        title="{{ spongebob }}"
+        >
+
+
 
 
 
